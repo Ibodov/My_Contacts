@@ -18,6 +18,7 @@
         </activity>
         <!--Добавляем активити-->
         <activity android:name=".AddContactActivity"></activity>
+        <activity android:name=".AboutContactActivity" />
     </application>
 
 </manifest>
