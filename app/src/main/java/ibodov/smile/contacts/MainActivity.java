@@ -49,18 +49,18 @@ public class MainActivity extends AppCompatActivity implements ContactAdapter.On
     }
         // //метод Массива с данными о контактах (это временный массив)
     private void setContactsArray() {
-        contacts[0] = new Contact(1, "Islom", "Nuridinov", "nuriddinov@mail.tj", 909000000);
-        contacts[1] = new Contact(2, "Alex", "Cold", "alex@gmail.com", 808000000);
-        contacts[2] = new Contact(3, "Diana", "Sparrow", "diana@gmail.com", 707000000);
-        contacts[3] = new Contact(4, "Dean", "Winchester", "dean@gmail.com", 606000000);
-        contacts[4] = new Contact(5, "Sam", "Winchester", "sam@gmail.com", 505000000);
-        contacts[5] = new Contact(6, "Erric", "Banas", "benas@gmail.com", 404000000);
-        contacts[6] = new Contact(7, "Dominic", "Torretto", "dominic@gmail.com", 303000000);
-        contacts[7] = new Contact(8, "Aiden", "Pierce", "aiden@gmail.com", 202000000);
-        contacts[8] = new Contact(9, "Elliot", "Alderson", "elliot@gmail.com", 101000000);
-        contacts[9] = new Contact(10, "Michel", "Rodriges", "michel@gmail.com", 100000000);
-        contacts[10] = new Contact(11, "Rachel", "Wood", "wood@gmail.com", 999000000);
-        contacts[11] = new Contact(12, "Eleonora", "Dean", "eleonora@gmail.com", 888000000);
+        contacts[0] = new Contact(1, "Islom", "Nuridinov", "nuriddinov@mail.tj", "909000000");
+        contacts[1] = new Contact(2, "Alex", "Cold", "alex@gmail.com", "808000000");
+        contacts[2] = new Contact(3, "Diana", "Sparrow", "diana@gmail.com", "707000000");
+        contacts[3] = new Contact(4, "Dean", "Winchester", "dean@gmail.com", "606000000");
+        contacts[4] = new Contact(5, "Sam", "Winchester", "sam@gmail.com", "505000000");
+        contacts[5] = new Contact(6, "Erric", "Banas", "benas@gmail.com", "404000000");
+        contacts[6] = new Contact(7, "Dominic", "Torretto", "dominic@gmail.com", "303000000");
+        contacts[7] = new Contact(8, "Aiden", "Pierce", "aiden@gmail.com", "202000000");
+        contacts[8] = new Contact(9, "Elliot", "Alderson", "elliot@gmail.com", "101000000");
+        contacts[9] = new Contact(10, "Michel", "Rodriges", "michel@gmail.com", "100000000");
+        contacts[10] = new Contact(11, "Rachel", "Wood", "wood@gmail.com", "999000000");
+        contacts[11] = new Contact(12, "Eleonora", "Dean", "eleonora@gmail.com", "888000000");
     }
 
     //создаем метод

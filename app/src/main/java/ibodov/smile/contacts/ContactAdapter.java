@@ -15,11 +15,11 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ContactV
     // Создания Массива который состоит из объектов класса Contact
     private Contact[] localContacts; // иниц будет в MainActivity/ localContacts - 1вый
 
-   // private OnItemClickListener localListener;
+    private OnItemClickListener localListener;
 
     public ContactAdapter(Contact[] contacts, OnItemClickListener listener) { // Создаём Конструктор который будет принимать массив контактов./ 2ой параметр это MainActivity
         localContacts = new Contact[contacts.length];
-     //   localListener = listener;
+       localListener = listener;
 
         for (int i=0; i<contacts.length; i++) {
             localContacts[i] = contacts[i];
@@ -59,7 +59,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ContactV
         // Это Имплиментировает класс ContactViewHolder
         @Override
         public void onClick(View view) {
-       //     localListener.onItemClick(getAdapterPosition());
+           localListener.onItemClick(getAdapterPosition());
         }
     }
 

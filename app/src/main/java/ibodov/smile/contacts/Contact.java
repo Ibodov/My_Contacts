@@ -5,10 +5,10 @@ public class Contact {
     private String name;
     private String lastName;
     private String mail;
-    private int number;
+    private String number;
 
     // Генерация Конструктора (Alt + Insert)
-    public Contact(int id, String name, String lastName, String mail, int number) {
+    public Contact(int id, String name, String lastName, String mail, String number) {
         this.id = id;
         this.name = name;
         this.lastName = lastName;
@@ -31,7 +31,7 @@ public class Contact {
 
     public String getMail() { return mail;}
 
-    public int getNumber() { return number;}
+    public String getNumber() { return number;}
 
     // Генерация Сеттеров (Alt + Insert)
     public void setId(int id) {
@@ -47,7 +47,7 @@ public class Contact {
     }
     public void setMail(String mail) { this.mail = mail;}
 
-    public void setNumber(int number) {
+    public void setNumber(String number) {
         this.number = number;
     }
 }
